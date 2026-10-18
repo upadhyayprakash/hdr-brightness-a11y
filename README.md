@@ -22,6 +22,15 @@ A 100 x 100 company logo in a LinkedIn job alert, opened in Yahoo Mail in Chrome
 
 The JPEG file explains why. It embeds an Apple color profile labelled "Rec. ITU-R BT.2100 PQ". **PQ** (Perceptual Quantizer) is an HDR encoding where each pixel value means an absolute brightness, up to 10,000 **nits** (the unit of screen brightness). The logo's white pixels sit at the very top of that scale: 10,000 nits. The broadcast guideline ITU-R BT.2408 puts white graphics at 203 nits, so the file asks for about 49 times that. The screen clips it at its own maximum, which is still several times brighter than the page around it.
 
+<img src="figures/brightness-light.png" width="820" alt="Bar chart of brightness in nits. Graphics white per ITU-R BT.2408: 203. MacBook Pro XDR sustained: 1,000. MacBook Pro XDR peak: 1,600. The logo file's white: 10,000, about 49 times graphics white. The screen clips the logo at its 1,600 nit peak.">
+
+<picture>
+  <source media="(prefers-reduced-motion: no-preference)" srcset="figures/photo-blink.gif">
+  <img src="figures/photo-comparison.jpg" width="820" alt="Two phone photos of the demo on a MacBook Pro XDR display, taken at the same exposure. Left, Today (no limit): the logo glows and its light spills over the dark square around it. Right, If my preference were respected: the same logo is plain white with crisp edges.">
+</picture>
+
+*Phone photos of the live demo on a MacBook Pro XDR display, same exposure. A screenshot can't show this, a camera can. The animation switches every 1.5 seconds. If you have reduced motion turned on, you see the [two photos side by side](figures/photo-comparison.jpg) instead.*
+
 Nobody meant it to glow. It was most likely exported from an Apple tool with an HDR color space selected. As phones save HDR photos by default, anything users upload (avatars, logos, product photos) can bring HDR onto pages whose developers never chose it.
 
 ### Invisible in screenshots

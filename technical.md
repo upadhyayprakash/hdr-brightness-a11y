@@ -11,6 +11,15 @@ HDR screens can show content much brighter than normal page white. That is great
 
 This happens today, by accident. A 100 x 100 company logo in a LinkedIn job alert, viewed in Yahoo Mail in Chrome on a MacBook XDR display, rendered far brighter than the rest of the email. Its JPEG carries an Apple "Rec. ITU-R BT.2100 PQ" color profile, so its white pixels ask for 10,000 nits, about 49 times the 203 nits that ITU-R BT.2408 recommends for graphics white. Nobody meant it to glow. It was most likely exported from an Apple tool with an HDR color space selected.
 
+<img src="figures/brightness-light.png" width="820" alt="Bar chart of brightness in nits. Graphics white per ITU-R BT.2408: 203. MacBook Pro XDR sustained: 1,000. MacBook Pro XDR peak: 1,600. The logo file's white: 10,000, about 49 times graphics white. The screen clips the logo at its 1,600 nit peak.">
+
+<picture>
+  <source media="(prefers-reduced-motion: no-preference)" srcset="figures/photo-blink.gif">
+  <img src="figures/photo-comparison.jpg" width="820" alt="Two phone photos of the demo on a MacBook Pro XDR display, taken at the same exposure. Left, Today (no limit): the logo glows and its light spills over the dark square around it. Right, If my preference were respected: the same logo is plain white with crisp edges.">
+</picture>
+
+*Phone photos of the live demo on a MacBook Pro XDR display, same exposure (screenshots are SDR and cannot show this). The animation switches every 1.5 s; with reduced motion turned on, you see the [still side-by-side](figures/photo-comparison.jpg) instead.*
+
 A screenshot of the page looks normal, because screenshots are saved in SDR and clip anything above normal white. So the problem is invisible in design reviews, bug reports and chat threads. You only see it live, on an HDR screen.
 
 **The harm is the sudden jump, not the overall brightness.** Scrolling a dim inbox at night and hitting one HDR logo is like a TV ad that is much louder than the programme around it.

@@ -23,6 +23,15 @@ This idea started with a real email. It was a LinkedIn job alert, opened in Yaho
 
 Looking inside the logo's image file showed why. The file was saved with a special label that tells the screen "this white is as bright as possible." In numbers, it asks for about 49 times the brightness that broadcast experts recommend for white text and graphics. The screen can't go that far, so it simply goes as bright as it can, which is still several times brighter than the page around it.
 
+<img src="figures/brightness-light.png" width="820" alt="Bar chart of brightness in nits. Graphics white per ITU-R BT.2408: 203. MacBook Pro XDR sustained: 1,000. MacBook Pro XDR peak: 1,600. The logo file's white: 10,000, about 49 times graphics white. The screen clips the logo at its 1,600 nit peak.">
+
+<picture>
+  <source media="(prefers-reduced-motion: no-preference)" srcset="figures/photo-blink.gif">
+  <img src="figures/photo-comparison.jpg" width="820" alt="Two phone photos of the demo on a MacBook Pro XDR display, taken at the same exposure. Left, Today (no limit): the logo glows and its light spills over the dark square around it. Right, If my preference were respected: the same logo is plain white with crisp edges.">
+</picture>
+
+*Two phone photos of the demo on a MacBook, taken the same way, switching every 1.5 seconds: how it looks today, and how it would look if the setting existed. If you've asked your device to reduce motion, you see them [side by side](figures/photo-comparison.jpg) instead, which is exactly the kind of preference this proposal is about.*
+
 Nobody meant for this to happen. The logo was most likely saved from an Apple design or photo app with an HDR option switched on. As phones now take HDR photos by default, more and more pictures that people upload (profile photos, logos, product photos) carry this extra brightness onto websites whose makers never chose it.
 
 ### You can't see it in a screenshot
