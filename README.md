@@ -3,6 +3,7 @@
 Technical names are kept, and each one is explained the first time it appears.
 
 Author: Prakash Upadhyay  
+Discussion: [w3c/csswg-drafts#14616](https://github.com/w3c/csswg-drafts/issues/14616)  
 Published: 18 Oct 2026. Feedback welcome: [open an issue](https://github.com/upadhyayprakash/hdr-brightness-a11y/issues).  
 Versions: this page (balanced) · [technical](technical.md) · [plain language](plain.md) · [live demo](demo/)  
 

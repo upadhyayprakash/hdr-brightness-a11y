@@ -3,6 +3,7 @@
 Versions: [balanced](./) · [technical](technical.md) · this page (plain language) · [live demo](demo/)  
 
 Author: Prakash Upadhyay  
+Discussion: [w3c/csswg-drafts#14616](https://github.com/w3c/csswg-drafts/issues/14616)  
 Published: 18 Oct 2026. Feedback welcome: [open an issue](https://github.com/upadhyayprakash/hdr-brightness-a11y/issues).  
 
 This version is written for anyone, with no technical background needed. Words that may be new are explained the first time they appear, and there is a short glossary at the end.

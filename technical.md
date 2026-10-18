@@ -1,6 +1,7 @@
 # Explainer: a user preference for limiting HDR brightness
 
 Author: Prakash Upadhyay  
+Discussion: [w3c/csswg-drafts#14616](https://github.com/w3c/csswg-drafts/issues/14616)  
 Published: 18 Oct 2026. Feedback welcome: [open an issue](https://github.com/upadhyayprakash/hdr-brightness-a11y/issues).  
 Versions: [balanced](./) · this page (technical) · [plain language](plain.md) · [live demo](demo/)  
 Related: [csswg-drafts #11790](https://github.com/w3c/csswg-drafts/issues/11790), [CSS Color HDR 1](https://drafts.csswg.org/css-color-hdr/), [Media Queries 5](https://www.w3.org/TR/mediaqueries-5/)  
